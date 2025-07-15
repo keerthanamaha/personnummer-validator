@@ -1,3 +1,24 @@
+# Swedish Personal Identity Number Validator
+
+A simple web app to validate and decode Swedish Personal Identity Numbers (personnummer). 
+
+## About
+
+The Swedish Personal Identity Number (personnummer) is more than just an ID — it contains embedded information such as birthdate, gender, and a built-in checksum to verify validity.
+
+This app:
+- Validates the format of the personnummer.
+- Checks the Luhn checksum digit.
+- Extracts details like birthdate, gender, and century.
+- Explains hidden patterns in the personnummer system.
+
+## Features
+
+- Input validation with user-friendly error messages.
+- Birthdate extraction and century handling.
+- Gender identification based on the second last digit.
+- Checksum verification using the Luhn algorithm.
+- Responsive and clean UI.
 
 ## 🛠️ How to Use
 1. Open `index.html` in a browser.
